@@ -1,0 +1,9 @@
+httpconnpool:
+  maxTotal: 300
+  defaultMaxPerRoute: 300
+  maxPerRoutes:
+    -
+      scheme: http
+      host: localhost
+      port: 8080
+      maxPerRoute: 300
